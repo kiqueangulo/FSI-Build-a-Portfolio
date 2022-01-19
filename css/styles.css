@@ -1,0 +1,16 @@
+html {
+    text-align: center;
+}
+.front {
+    background-image: url("https://wallpaperaccess.com/full/52448.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1, h2, h3, p, ul, li {
+    background-color: seashell;
+}
+img {
+    border-radius: 10%;
+    border-color: rgb(252, 255, 255);
+    border-style: solid;
+}
