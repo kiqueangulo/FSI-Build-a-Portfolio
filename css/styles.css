@@ -1,16 +1,31 @@
-html {
+body {
     text-align: center;
 }
 .front {
     background-image: url("https://wallpaperaccess.com/full/52448.jpg");
+    z-index: -1;
+    /*filter: blur(10px);
+    -webkit-filter: blur(8px);*/
     background-position: center;
     background-repeat: no-repeat;
 }
-h1, h2, h3, p, ul, li {
+.content {
+    z-index: 99999;
+}
+h1, h2, p, h3 {
     background-color: seashell;
+    /*z-index: 2;*/
 }
 img {
     border-radius: 10%;
     border-color: rgb(252, 255, 255);
     border-style: solid;
 }
+.projects {
+    text-align: center;
+}
+.projects ul {
+    list-style-position: inside;
+    background-color: seashell;
+}
+
